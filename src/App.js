@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header'>
+        <h1>만다라트 생성기 with GPT</h1>
+      </div>
+      <div className='content'>
+        <h2>어떤 목표를 달성하고 싶나요?</h2>
+        <div><input placeholder='여러분의 목표를 알려주세요.'></input></div>
+        <button>만다라트 만들기</button>
+      </div>
     </div>
   );
 }
