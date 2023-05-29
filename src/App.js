@@ -11,6 +11,9 @@ function App() {
         <div><input placeholder='여러분의 목표를 알려주세요.'></input></div>
         <button>만다라트 만들기</button>
       </div>
+      <div className='footer'>
+        footer 입니다.
+      </div>
     </div>
   );
 }
