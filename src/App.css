@@ -14,3 +14,16 @@ body{
   color: white;
   position: relative;
 }
+
+.mandalart-container{
+  margin: 50px auto;
+  width: 700px;
+  height: 700px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mandalart-container div{
+  border: 1px solid white;
+  background-color: gray;
+}

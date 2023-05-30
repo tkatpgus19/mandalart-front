@@ -10,6 +10,17 @@ function App() {
         <h2>어떤 목표를 달성하고 싶나요?</h2>
         <div><input placeholder='여러분의 목표를 알려주세요.'></input></div>
         <button>만다라트 만들기</button>
+        <div className='mandalart-container'>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
       <div className='footer'>
         footer 입니다.
