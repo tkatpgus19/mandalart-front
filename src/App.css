@@ -9,6 +9,10 @@ body{
   text-align: center;
   height: 100vh;
 }
+.content input{
+  width: 20%;
+  height: 30px;
+}
 .footer{
   background-color: black;
   color: white;
@@ -26,4 +30,8 @@ body{
 .mandalart-container div{
   border: 1px solid white;
   background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
