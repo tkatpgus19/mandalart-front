@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import './App.css';
 
 function App() {
+  let [goal, setGoal] = useState()
+
   return (
     <div className="App">
       <div className='header'>
@@ -8,8 +11,11 @@ function App() {
       </div>
       <div className='content'>
         <h2>어떤 목표를 달성하고 싶나요?</h2>
-        <div><input placeholder='여러분의 목표를 알려주세요.'></input></div>
-        <button>만다라트 만들기</button>
+        <div><input placeholder='여러분의 목표를 알려주세요.' onInput={(e)=>{
+          setGoal(e.target.value);
+          console.log(goal)
+        }}></input></div>
+        <button onClick={()=>alert(goal)}>만다라트 만들기</button>
         <div className='mandalart-container'>
           <div><p>운동</p></div>
           <div><p>운동</p></div>
